@@ -3,7 +3,7 @@ Generate secure Session Ids
 
 - example
 
-        final SessionIdGenerator r = new SessionIdGenerator();
-        System.out.println(r.nextString());
-        System.out.println(r.nextString());
-        System.out.println(r.nextString());
+        final SessionIdGenerator idg = new SessionIdGenerator();
+        System.out.println(idg.nextString());
+        System.out.println(idg.nextString());
+        System.out.println(idg.nextString());
